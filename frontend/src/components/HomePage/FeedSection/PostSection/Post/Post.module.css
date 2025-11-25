@@ -1,0 +1,170 @@
+:root {
+  --color: #666;
+}
+
+.post {
+  height: auto;
+  /* min-height: 250px; */
+  width: 100%;
+  background-color: #fff;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 3px #999;
+  position: relative;
+}
+
+.postTitle {
+  padding: 10px 20px 0px;
+  font-weight: 500;
+  width: 100%;
+  height: auto;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.postContent {
+  max-height: fit-content;
+  width: 100%;
+  margin: 10px 0px 5px;
+}
+
+.postContent img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+
+.reactionIcon {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+  color: var(--color);
+  font-weight: 600;
+  width: calc(100% - 30px);
+  height: 40px;
+  padding: 4px;
+  overflow: hidden;
+}
+
+.reactionIcon :nth-child(n) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.reactionIcon :nth-child(n) img {
+  width: 20px;
+  height: 20px;
+}
+
+.post hr {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.numOfReactions {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 16px;
+  margin: 5px 0 10px 0;
+  color: var(--color);
+  font-weight: 600;
+}
+
+.numOfReactions span:nth-child(n) {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.numOfReactions span:nth-child(2) {
+  margin-left: auto;
+  margin-right: 15px;
+}
+.numOfReactions span:nth-child(1) {
+  gap: 8px;
+}
+
+.numOfReactions span div {
+  display: flex;
+}
+
+.numOfReactions span div :nth-child(n) {
+  height: 20px;
+  width: 20px;
+}
+
+.numOfReactions span div :nth-child(2),
+.numOfReactions span div :nth-child(3) {
+  margin-left: -3px;
+}
+
+.numOfReactions span div :nth-child(1),
+.numOfReactions span div :nth-child(2) {
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 2px #fff;
+}
+
+.noPhotoPost {
+  display: none;
+  margin-top: 5px;
+}
+
+/* reactions On Hover */
+/* floating popup styles */
+.floatingBox {
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  gap: 8px;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+  opacity: 1;
+}
+
+/* emoji item styles */
+.emoji {
+  height: 2.25rem;
+  width: 2.25rem;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.emoji:hover {
+  transform: scale(1.25);
+}
+
+/* reaction button row styles */
+.reactionIcon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #e5e5e5;
+  color: #555;
+  font-weight: 500;
+  user-select: none;
+}
+
+.reactionIcon span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.reactionIcon span:hover {
+  background-color: #efefef;
+}

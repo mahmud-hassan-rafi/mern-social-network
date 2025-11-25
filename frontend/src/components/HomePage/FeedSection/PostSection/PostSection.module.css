@@ -1,0 +1,9 @@
+.postSection {
+  width: 70%;
+  min-height: calc(100vh - 75px);
+  margin: 0 auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}

@@ -1,0 +1,43 @@
+:root {
+  --backgroundColor: #f2f4f7;
+}
+
+.homeContainer {
+  display: grid;
+  grid-template-columns: 22% 56% 22%;
+  height: calc(100vh - 60px);
+  width: 100%;
+  background-color: var(--backgroundColor);
+}
+
+.leftSection,
+.feed,
+.rightSection {
+  height: 100%;
+  overflow-y: auto;
+  min-height: 0;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.leftSection::-webkit-scrollbar {
+  width: 0;
+}
+
+.leftSection:hover {
+  scrollbar-width: thin;
+}
+
+.leftSection:hover::-webkit-scrollbar {
+  width: 6px;
+}
+
+.leftSection:hover::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 10px;
+}
+
+.feed {
+  position: relative;
+}

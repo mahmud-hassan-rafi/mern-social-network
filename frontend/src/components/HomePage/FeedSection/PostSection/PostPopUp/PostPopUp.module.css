@@ -1,0 +1,262 @@
+.postPopUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 20;
+}
+
+.popupContent {
+  width: 530px;
+  min-height: 440px;
+  background-color: white;
+  position: fixed;
+  border-radius: 12px;
+  z-index: 21;
+  box-shadow: 0 0 20px 1px #d6d4d4;
+  padding: 10px 20px;
+}
+
+.createPostPopUpHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 19px;
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.createPostPopUpHead .closeBtn {
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #e7eceb;
+  transform: translateX(calc(-50% + 10px));
+}
+
+.createPostPopUpHead .closeBtn:hover,
+.createPostPopUpHead .closeBtn:hover svg {
+  background-color: #d5d6d6;
+  transition: all 0.3s ease;
+}
+
+.createPostPopUpHead .closeBtn svg {
+  width: 25px;
+  height: 25px;
+  color: #555;
+  font-weight: normal;
+}
+
+/* horizontal line */
+.popupContent hr {
+  margin: 10px -20px;
+  width: calc(100% + 40px);
+}
+
+/* Post Visibility */
+.postVisibility {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 8px;
+}
+
+.postVisibility img:nth-child(1) {
+  width: 45px;
+  height: 45px;
+}
+
+.postVisibility span :first-child {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.postVisibility span :last-child {
+  border: none;
+  outline: none;
+  height: 25px;
+  width: max-content;
+  background: #e0e7e7;
+  padding: 0px 8px 1px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.postVisibility span :last-child option {
+  font-size: 14px;
+  border: none;
+  background-color: rgb(245, 245, 245);
+}
+
+/* post text input section */
+.postWriting {
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.postWriting textarea {
+  resize: none;
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 22px;
+  color: #444;
+  outline: none;
+  padding: 5px;
+  /* scrollbar-width: 3px; */
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* post background color and adding emoji section */
+.emoji_section {
+  padding: 10px 0px;
+  justify-content: space-between;
+}
+
+.emoji_section :nth-child(n) {
+  cursor: pointer;
+}
+
+.emoji_section :last-child {
+  width: 30px;
+  height: 30px;
+  color: #666;
+  font-weight: 200;
+}
+
+/* add event activity section */
+.addEvent {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  width: calc(100%);
+  box-shadow: 0px 0px 1px 1px #9999997c;
+  padding: 0px 10px;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.addEvent :nth-child(n) {
+  margin: 0;
+}
+
+.addEvent :nth-child(1) {
+  font-weight: 500;
+}
+
+/* event icons */
+.eventIcons {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 0 15px;
+}
+
+.eventIcons li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  list-style: none;
+  font-size: 24px;
+}
+
+.eventIcons li:nth-child(n),
+.icon {
+  cursor: pointer;
+}
+
+.eventIcons li:nth-child(1) {
+  color: rgb(41, 189, 41);
+}
+
+.eventIcons li:nth-child(2) {
+  color: #1c66a7;
+}
+
+.eventIcons li:nth-child(3) {
+  color: goldenrod;
+  font-size: 28px;
+}
+
+.eventIcons li:nth-child(4) {
+  color: orangered;
+  font-size: 24px;
+}
+
+.eventIcons li:nth-child(5) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 20px;
+  width: 30px;
+  background-color: rgb(49, 160, 141);
+  color: #fff;
+  border-radius: 8px;
+}
+
+.eventIcons li:nth-child(6) {
+  font-size: 28px;
+  font-weight: 600;
+  color: #666;
+}
+
+/* post button */
+.postBtn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 7px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1c66a7;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.postBtn:hover {
+  background-color: #14558d;
+}
+
+.previewPostImage {
+  position: relative;
+}
+
+.previewPostImage .closePreviewPostImg {
+  position: absolute;
+  top: 0;
+  left: 70px;
+}
+
+.previewPostImage img {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 6px;
+  display: hidden;
+}

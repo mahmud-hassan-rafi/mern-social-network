@@ -1,0 +1,1062 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": "101",
+        "name": "Rafi Hasan",
+        "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+      },
+      "content": "আজ স্কুলে নতুন কম্পিউটার পেলাম 🎉 খুব খুশি লাগছে।",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/1015/600/400"
+        }
+      ],
+      "reactions": { "like": 120, "love": 30, "wow": 10, "angry": 0, "sad": 2 },
+      "comments_count": 4,
+      "shares_count": 1,
+      "privacy": "public",
+      "location": "Dhaka, Bangladesh",
+      "created_at": "2025-09-10T14:20:00+06:00"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "102",
+        "name": "Mahmud",
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      "content": "নতুন portfolio ওয়েবসাইট বানালাম 🚀",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/1042/600/400"
+        }
+      ],
+      "reactions": { "like": 85, "love": 15, "wow": 5, "angry": 0, "sad": 0 },
+      "comments_count": 3,
+      "shares_count": 2,
+      "privacy": "friends",
+      "location": null,
+      "created_at": "2025-09-12T10:10:00+06:00"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": "103",
+        "name": "Sadia",
+        "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+      },
+      "content": "আজ গ্রামে অনেক বৃষ্টি হলো 🌧️",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/1062/600/400"
+        }
+      ],
+      "reactions": { "like": 60, "love": 12, "wow": 2, "angry": 0, "sad": 6 },
+      "comments_count": 5,
+      "shares_count": 0,
+      "privacy": "public",
+      "location": "Remote Village",
+      "created_at": "2025-09-13T16:00:00+06:00"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": "104",
+        "name": "Imran",
+        "avatar": "https://randomuser.me/api/portraits/men/18.jpg"
+      },
+      "content": "React দিয়ে একটা ছোট প্রজেক্ট শেষ করলাম 🔥",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/237/600/400"
+        }
+      ],
+      "reactions": { "like": 110, "love": 25, "wow": 8, "angry": 0, "sad": 0 },
+      "comments_count": 7,
+      "shares_count": 3,
+      "privacy": "friends",
+      "location": "Dhaka",
+      "created_at": "2025-09-14T08:30:00+06:00"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": "105",
+        "name": "Nabil",
+        "avatar": "https://randomuser.me/api/portraits/men/25.jpg"
+      },
+      "content": "গ্রামের হাটে গিয়ে তাজা সবজি কিনলাম 🥦🥕",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/433/600/400"
+        }
+      ],
+      "reactions": { "like": 75, "love": 10, "wow": 3, "angry": 0, "sad": 1 },
+      "comments_count": 2,
+      "shares_count": 1,
+      "privacy": "public",
+      "location": "Rural Market",
+      "created_at": "2025-09-15T09:20:00+06:00"
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": "106",
+        "name": "Laila",
+        "avatar": "https://randomuser.me/api/portraits/women/20.jpg"
+      },
+      "content": "আজ ছোট্ট রান্না প্রতিযোগিতা করলাম 🍲",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/1080/600/400"
+        }
+      ],
+      "reactions": { "like": 90, "love": 28, "wow": 6, "angry": 0, "sad": 0 },
+      "comments_count": 6,
+      "shares_count": 2,
+      "privacy": "public",
+      "location": "Dhaka",
+      "created_at": "2025-09-16T18:00:00+06:00"
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": "107",
+        "name": "Tanvir",
+        "avatar": "https://randomuser.me/api/portraits/men/57.jpg"
+      },
+      "content": "আজ নদীর ধারে হাঁটতে গেলাম 🌊",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/1076/600/400"
+        }
+      ],
+      "reactions": { "like": 58, "love": 12, "wow": 4, "angry": 0, "sad": 0 },
+      "comments_count": 1,
+      "shares_count": 0,
+      "privacy": "friends",
+      "location": "Village Riverside",
+      "created_at": "2025-09-17T17:30:00+06:00"
+    },
+    {
+      "id": "8",
+      "user": {
+        "id": "108",
+        "name": "Shima",
+        "avatar": "https://randomuser.me/api/portraits/women/64.jpg"
+      },
+      "content": "নতুন বই পড়া শুরু করলাম 📚",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/1069/600/400"
+        }
+      ],
+      "reactions": { "like": 33, "love": 14, "wow": 1, "angry": 0, "sad": 0 },
+      "comments_count": 2,
+      "shares_count": 0,
+      "privacy": "public",
+      "location": null,
+      "created_at": "2025-09-18T20:15:00+06:00"
+    },
+    {
+      "id": "9",
+      "user": {
+        "id": "109",
+        "name": "Jamal",
+        "avatar": "https://randomuser.me/api/portraits/men/13.jpg"
+      },
+      "content": "আজ প্রথমবার drone চালালাম 🚁",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/180/600/400"
+        }
+      ],
+      "reactions": { "like": 140, "love": 50, "wow": 25, "angry": 0, "sad": 1 },
+      "comments_count": 9,
+      "shares_count": 4,
+      "privacy": "public",
+      "location": "Dhaka Field",
+      "created_at": "2025-09-19T11:45:00+06:00"
+    },
+    {
+      "id": "10",
+      "user": {
+        "id": "110",
+        "name": "Farhana",
+        "avatar": "https://randomuser.me/api/portraits/women/3.jpg"
+      },
+      "content": "একটা সুন্দর sunset দেখলাম 🌅",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/1003/600/400"
+        }
+      ],
+      "reactions": { "like": 200, "love": 60, "wow": 18, "angry": 0, "sad": 0 },
+      "comments_count": 11,
+      "shares_count": 6,
+      "privacy": "public",
+      "location": "Seaside",
+      "created_at": "2025-09-20T18:45:00+06:00"
+    },
+
+    {
+      "id": "11",
+      "user": {
+        "id": "101",
+        "name": "Rahim",
+        "avatar": "https://randomuser.me/api/portraits/men/11.jpg"
+      },
+      "content": "আজকে coding marathon এ অংশ নিলাম 💻🔥",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1011/600/400" }
+      ],
+      "reactions": { "like": 150, "love": 40, "wow": 12, "angry": 1, "sad": 0 },
+      "comments_count": 8,
+      "shares_count": 4,
+      "privacy": "public",
+      "location": "Dhaka",
+      "created_at": "2025-09-15T10:30:00+06:00"
+    },
+    {
+      "id": "12",
+      "user": {
+        "id": "102",
+        "name": "Nusrat",
+        "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+      },
+      "content": "My first homemade cake 🎂",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1015/600/400" }
+      ],
+      "reactions": { "like": 210, "love": 80, "wow": 25, "angry": 0, "sad": 0 },
+      "comments_count": 15,
+      "shares_count": 7,
+      "privacy": "friends",
+      "location": "Chattogram",
+      "created_at": "2025-09-16T14:10:00+06:00"
+    },
+    {
+      "id": "13",
+      "user": {
+        "id": "103",
+        "name": "Hasib",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+      },
+      "content": "আজ বন্ধুর সাথে cricket খেলে দারুণ সময় কাটালাম 🏏",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1016/600/400" }
+      ],
+      "reactions": { "like": 180, "love": 55, "wow": 10, "angry": 0, "sad": 2 },
+      "comments_count": 12,
+      "shares_count": 3,
+      "privacy": "public",
+      "location": "Sylhet",
+      "created_at": "2025-09-17T16:00:00+06:00"
+    },
+    {
+      "id": "14",
+      "user": {
+        "id": "104",
+        "name": "Mitu",
+        "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      "content": "সকালের কফি ছাড়া দিন শুরুই হয় না ☕",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1020/600/400" }
+      ],
+      "reactions": { "like": 95, "love": 35, "wow": 8, "angry": 0, "sad": 0 },
+      "comments_count": 5,
+      "shares_count": 2,
+      "privacy": "friends",
+      "location": "Dhaka",
+      "created_at": "2025-09-18T08:45:00+06:00"
+    },
+    {
+      "id": "15",
+      "user": {
+        "id": "105",
+        "name": "Tanvir",
+        "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      "content": "Weekend hiking trip 🏔️",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1021/600/400" }
+      ],
+      "reactions": { "like": 230, "love": 70, "wow": 33, "angry": 0, "sad": 0 },
+      "comments_count": 19,
+      "shares_count": 9,
+      "privacy": "public",
+      "location": "Bandarban",
+      "created_at": "2025-09-18T20:15:00+06:00"
+    },
+    {
+      "id": "16",
+      "user": {
+        "id": "106",
+        "name": "Shila",
+        "avatar": "https://randomuser.me/api/portraits/women/6.jpg"
+      },
+      "content": "New painting finished 🎨",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1025/600/400" }
+      ],
+      "reactions": { "like": 143, "love": 90, "wow": 15, "angry": 0, "sad": 0 },
+      "comments_count": 10,
+      "shares_count": 4,
+      "privacy": "public",
+      "location": "Khulna",
+      "created_at": "2025-09-19T13:30:00+06:00"
+    },
+    {
+      "id": "17",
+      "user": {
+        "id": "107",
+        "name": "Arif",
+        "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      "content": "Movie night 🎬",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1031/600/400" }
+      ],
+      "reactions": { "like": 88, "love": 20, "wow": 5, "angry": 0, "sad": 1 },
+      "comments_count": 6,
+      "shares_count": 2,
+      "privacy": "friends",
+      "location": "Dhaka",
+      "created_at": "2025-09-19T22:00:00+06:00"
+    },
+    {
+      "id": "18",
+      "user": {
+        "id": "108",
+        "name": "Nazia",
+        "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+      },
+      "content": "আজ গার্ডেন থেকে fresh flowers 🌸",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1033/600/400" }
+      ],
+      "reactions": { "like": 167, "love": 65, "wow": 10, "angry": 0, "sad": 0 },
+      "comments_count": 9,
+      "shares_count": 3,
+      "privacy": "public",
+      "location": "Comilla",
+      "created_at": "2025-09-20T09:00:00+06:00"
+    },
+    {
+      "id": "19",
+      "user": {
+        "id": "109",
+        "name": "Kamal",
+        "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      "content": "Rainy day mood ☔",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1035/600/400" }
+      ],
+      "reactions": { "like": 102, "love": 30, "wow": 6, "angry": 0, "sad": 3 },
+      "comments_count": 7,
+      "shares_count": 2,
+      "privacy": "friends",
+      "location": "Mymensingh",
+      "created_at": "2025-09-20T15:15:00+06:00"
+    },
+    {
+      "id": "20",
+      "user": {
+        "id": "110",
+        "name": "Farhana",
+        "avatar": "https://randomuser.me/api/portraits/women/33.jpg"
+      },
+      "content": "একটা সুন্দর sunset দেখলাম 🌅",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1003/600/400" }
+      ],
+      "reactions": { "like": 200, "love": 60, "wow": 18, "angry": 0, "sad": 0 },
+      "comments_count": 11,
+      "shares_count": 6,
+      "privacy": "public",
+      "location": "Seaside",
+      "created_at": "2025-09-20T18:45:00+06:00"
+    },
+    {
+      "id": "21",
+      "user": {
+        "id": "111",
+        "name": "Sabbir",
+        "avatar": "https://randomuser.me/api/portraits/men/56.jpg"
+      },
+      "content": "New football jersey ⚽",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1040/600/400" }
+      ],
+      "reactions": { "like": 175, "love": 40, "wow": 12, "angry": 0, "sad": 0 },
+      "comments_count": 9,
+      "shares_count": 4,
+      "privacy": "public",
+      "location": "Dhaka",
+      "created_at": "2025-09-21T12:00:00+06:00"
+    },
+    {
+      "id": "22",
+      "user": {
+        "id": "112",
+        "name": "Salma",
+        "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+      },
+      "content": "New dress today 👗",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1041/600/400" }
+      ],
+      "reactions": { "like": 223, "love": 95, "wow": 21, "angry": 0, "sad": 0 },
+      "comments_count": 14,
+      "shares_count": 7,
+      "privacy": "friends",
+      "location": "Rajshahi",
+      "created_at": "2025-09-21T19:30:00+06:00"
+    },
+    {
+      "id": "23",
+      "user": {
+        "id": "113",
+        "name": "Rasel",
+        "avatar": "https://randomuser.me/api/portraits/men/55.jpg"
+      },
+      "content": "Weekend market trip 🛒",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1045/600/400" }
+      ],
+      "reactions": { "like": 90, "love": 22, "wow": 6, "angry": 0, "sad": 1 },
+      "comments_count": 5,
+      "shares_count": 1,
+      "privacy": "public",
+      "location": "Bogura",
+      "created_at": "2025-09-22T11:10:00+06:00"
+    },
+    {
+      "id": "24",
+      "user": {
+        "id": "114",
+        "name": "Lamia",
+        "avatar": "https://randomuser.me/api/portraits/women/50.jpg"
+      },
+      "content": "Fresh fruits 🍉🍊",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1050/600/400" }
+      ],
+      "reactions": { "like": 112, "love": 45, "wow": 7, "angry": 0, "sad": 0 },
+      "comments_count": 6,
+      "shares_count": 2,
+      "privacy": "public",
+      "location": "Barisal",
+      "created_at": "2025-09-22T16:25:00+06:00"
+    },
+    {
+      "id": "25",
+      "user": {
+        "id": "115",
+        "name": "Masud",
+        "avatar": "https://randomuser.me/api/portraits/men/52.jpg"
+      },
+      "content": "Programming with coffee ☕💻",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1051/600/400" }
+      ],
+      "reactions": { "like": 155, "love": 50, "wow": 18, "angry": 0, "sad": 0 },
+      "comments_count": 12,
+      "shares_count": 5,
+      "privacy": "friends",
+      "location": "Dhaka",
+      "created_at": "2025-09-23T09:00:00+06:00"
+    },
+    {
+      "id": "26",
+      "user": {
+        "id": "116",
+        "name": "Anika",
+        "avatar": "https://randomuser.me/api/portraits/women/16.jpg"
+      },
+      "content": "আজকে নতুন বই শুরু করলাম 📚",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1055/600/400" }
+      ],
+      "reactions": { "like": 134, "love": 45, "wow": 9, "angry": 0, "sad": 0 },
+      "comments_count": 8,
+      "shares_count": 3,
+      "privacy": "public",
+      "location": "Dhaka",
+      "created_at": "2025-09-23T20:20:00+06:00"
+    },
+    {
+      "id": "27",
+      "user": {
+        "id": "117",
+        "name": "Bashir",
+        "avatar": "https://randomuser.me/api/portraits/men/17.jpg"
+      },
+      "content": "Family dinner tonight 🍲",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1060/600/400" }
+      ],
+      "reactions": { "like": 175, "love": 60, "wow": 13, "angry": 0, "sad": 1 },
+      "comments_count": 11,
+      "shares_count": 4,
+      "privacy": "friends",
+      "location": "Dhaka",
+      "created_at": "2025-09-24T19:00:00+06:00"
+    },
+    {
+      "id": "28",
+      "user": {
+        "id": "118",
+        "name": "Rafiq",
+        "avatar": "https://randomuser.me/api/portraits/men/57.jpg"
+      },
+      "content": "আজ মেঘলা আকাশ 🌥️",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1065/600/400" }
+      ],
+      "reactions": { "like": 87, "love": 20, "wow": 5, "angry": 0, "sad": 0 },
+      "comments_count": 4,
+      "shares_count": 1,
+      "privacy": "public",
+      "location": "Rangpur",
+      "created_at": "2025-09-24T16:15:00+06:00"
+    },
+    {
+      "id": "29",
+      "user": {
+        "id": "119",
+        "name": "Mehjabin",
+        "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+      },
+      "content": "আজকের dinner menu 🍛",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1070/600/400" }
+      ],
+      "reactions": { "like": 165, "love": 58, "wow": 14, "angry": 0, "sad": 0 },
+      "comments_count": 10,
+      "shares_count": 5,
+      "privacy": "friends",
+      "location": "Sylhet",
+      "created_at": "2025-09-25T20:30:00+06:00"
+    },
+    {
+      "id": "30",
+      "user": {
+        "id": "120",
+        "name": "Shuvo",
+        "avatar": "https://randomuser.me/api/portraits/men/25.jpg"
+      },
+      "content": "Travel to Sajek 🌄",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/1075/600/400" }
+      ],
+      "reactions": {
+        "like": 290,
+        "love": 102,
+        "wow": 34,
+        "angry": 0,
+        "sad": 0
+      },
+      "comments_count": 20,
+      "shares_count": 11,
+      "privacy": "public",
+      "location": "Sajek Valley",
+      "created_at": "2025-09-26T18:45:00+06:00"
+    },
+
+    {
+      "id": "31",
+      "user": {
+        "id": "131",
+        "name": "Tanvir",
+        "avatar": "https://randomuser.me/api/portraits/men/31.jpg"
+      },
+      "content": "Coding marathon শেষ করলাম 💻🔥",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/180/600/400"
+        }
+      ],
+      "reactions": {
+        "like": 320,
+        "love": 120,
+        "wow": 45,
+        "angry": 0,
+        "sad": 0
+      },
+      "comments_count": 25,
+      "shares_count": 8,
+      "privacy": "public",
+      "location": "Dhaka",
+      "created_at": "2025-09-27T10:00:00+06:00"
+    },
+    {
+      "id": "32",
+      "user": {
+        "id": "132",
+        "name": "Sadia",
+        "avatar": "https://randomuser.me/api/portraits/women/32.jpg"
+      },
+      "content": "আজ গ্রামের নদীর ধারে হাঁটলাম 🌿",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/201/600/400"
+        }
+      ],
+      "reactions": { "like": 180, "love": 66, "wow": 12, "angry": 0, "sad": 2 },
+      "comments_count": 14,
+      "shares_count": 4,
+      "privacy": "friends",
+      "location": "Kurigram",
+      "created_at": "2025-09-27T16:45:00+06:00"
+    },
+    {
+      "id": "33",
+      "user": {
+        "id": "133",
+        "name": "Hasib",
+        "avatar": "https://randomuser.me/api/portraits/men/33.jpg"
+      },
+      "content": "এক কাপ চা আর coding session ☕💻",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/202/600/400"
+        }
+      ],
+      "reactions": { "like": 240, "love": 88, "wow": 20, "angry": 0, "sad": 1 },
+      "comments_count": 10,
+      "shares_count": 2,
+      "privacy": "public",
+      "location": "Chattogram",
+      "created_at": "2025-09-28T09:30:00+06:00"
+    },
+    {
+      "id": "34",
+      "user": {
+        "id": "134",
+        "name": "Farzana",
+        "avatar": "https://randomuser.me/api/portraits/women/34.jpg"
+      },
+      "content": "আজ sunset photography করলাম 📸🌇",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/203/600/400"
+        }
+      ],
+      "reactions": {
+        "like": 300,
+        "love": 110,
+        "wow": 28,
+        "angry": 0,
+        "sad": 0
+      },
+      "comments_count": 18,
+      "shares_count": 9,
+      "privacy": "public",
+      "location": "Cox’s Bazar",
+      "created_at": "2025-09-28T18:20:00+06:00"
+    },
+    {
+      "id": "35",
+      "user": {
+        "id": "135",
+        "name": "Mehedi",
+        "avatar": "https://randomuser.me/api/portraits/men/35.jpg"
+      },
+      "content": "আজকে প্রথমবার সাইক্লিং রাইড 🚴",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/204/600/400"
+        }
+      ],
+      "reactions": { "like": 160, "love": 54, "wow": 9, "angry": 0, "sad": 0 },
+      "comments_count": 12,
+      "shares_count": 3,
+      "privacy": "friends",
+      "location": "Sylhet",
+      "created_at": "2025-09-29T07:50:00+06:00"
+    },
+    {
+      "id": "36",
+      "user": {
+        "id": "136",
+        "name": "Ruma",
+        "avatar": "https://randomuser.me/api/portraits/women/36.jpg"
+      },
+      "content": "আজ নতুন গান শুনলাম 🎶",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/206/600/400"
+        }
+      ],
+      "reactions": { "like": 140, "love": 48, "wow": 6, "angry": 0, "sad": 1 },
+      "comments_count": 6,
+      "shares_count": 2,
+      "privacy": "public",
+      "location": "Rangpur",
+      "created_at": "2025-09-29T14:15:00+06:00"
+    },
+    {
+      "id": "37",
+      "user": {
+        "id": "137",
+        "name": "Rakib",
+        "avatar": "https://randomuser.me/api/portraits/men/37.jpg"
+      },
+      "content": "Cricket খেলার practice হলো 🏏",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/206/600/400"
+        }
+      ],
+      "reactions": {
+        "like": 280,
+        "love": 100,
+        "wow": 22,
+        "angry": 0,
+        "sad": 3
+      },
+      "comments_count": 16,
+      "shares_count": 7,
+      "privacy": "public",
+      "location": "Dhaka Stadium",
+      "created_at": "2025-09-30T09:00:00+06:00"
+    },
+    {
+      "id": "38",
+      "user": {
+        "id": "138",
+        "name": "Sumaiya",
+        "avatar": "https://randomuser.me/api/portraits/women/38.jpg"
+      },
+      "content": "আজ বন্ধুরা মিলে picnic এ গেলাম 🎉",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://fastly.picsum.photos/id/7/600/400.jpg"
+        }
+      ],
+      "reactions": {
+        "like": 350,
+        "love": 140,
+        "wow": 36,
+        "angry": 0,
+        "sad": 0
+      },
+      "comments_count": 22,
+      "shares_count": 12,
+      "privacy": "public",
+      "location": "Gazipur",
+      "created_at": "2025-09-30T15:10:00+06:00"
+    },
+    {
+      "id": "39",
+      "user": {
+        "id": "139",
+        "name": "Mizan",
+        "avatar": "https://randomuser.me/api/portraits/men/39.jpg"
+      },
+      "content": "আজ গ্রামে গিয়ে family এর সাথে সময় কাটালাম ❤️",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/208/600/400"
+        }
+      ],
+      "reactions": {
+        "like": 410,
+        "love": 180,
+        "wow": 42,
+        "angry": 0,
+        "sad": 5
+      },
+      "comments_count": 30,
+      "shares_count": 14,
+      "privacy": "public",
+      "location": "Village Home",
+      "created_at": "2025-10-01T11:45:00+06:00"
+    },
+    {
+      "id": "40",
+      "user": {
+        "id": "140",
+        "name": "Nusrat",
+        "avatar": "https://randomuser.me/api/portraits/women/40.jpg"
+      },
+      "content": "আজকে sky photography করলাম ☁️📷",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/id/209/600/400"
+        }
+      ],
+      "reactions": { "like": 190, "love": 72, "wow": 14, "angry": 0, "sad": 0 },
+      "comments_count": 8,
+      "shares_count": 3,
+      "privacy": "friends",
+      "location": "Khulna",
+      "created_at": "2025-10-01T17:20:00+06:00"
+    },
+    {
+      "id": "41",
+      "user": {
+        "id": "141",
+        "name": "Omar",
+        "avatar": "https://randomuser.me/api/portraits/men/41.jpg"
+      },
+      "content": "আজকে রাতের আকাশ অসাধারণ 🌌",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/210/600/400" }
+      ],
+      "reactions": {
+        "like": 270,
+        "love": 90,
+        "wow": 30,
+        "angry": 0,
+        "sad": 0
+      },
+      "comments_count": 15,
+      "shares_count": 5,
+      "privacy": "public",
+      "location": "Rajshahi",
+      "created_at": "2025-10-02T21:30:00+06:00"
+    },
+    {
+      "id": "42",
+      "user": {
+        "id": "142",
+        "name": "Elma",
+        "avatar": "https://randomuser.me/api/portraits/women/42.jpg"
+      },
+      "content": "আজকে homemade cake বানালাম 🎂",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/211/600/400" }
+      ],
+      "reactions": {
+        "like": 210,
+        "love": 82,
+        "wow": 20,
+        "angry": 0,
+        "sad": 1
+      },
+      "comments_count": 12,
+      "shares_count": 6,
+      "privacy": "public",
+      "location": "Dhaka",
+      "created_at": "2025-10-02T19:10:00+06:00"
+    },
+    {
+      "id": "43",
+      "user": {
+        "id": "143",
+        "name": "Shakib",
+        "avatar": "https://randomuser.me/api/portraits/men/43.jpg"
+      },
+      "content": "Football match এ জয় পেলাম ⚽🏆",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/212/600/400" }
+      ],
+      "reactions": {
+        "like": 360,
+        "love": 130,
+        "wow": 38,
+        "angry": 0,
+        "sad": 2
+      },
+      "comments_count": 28,
+      "shares_count": 12,
+      "privacy": "public",
+      "location": "Dhaka Stadium",
+      "created_at": "2025-10-03T08:50:00+06:00"
+    },
+    {
+      "id": "44",
+      "user": {
+        "id": "144",
+        "name": "Mou",
+        "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+      },
+      "content": "আজকে rooftop garden এ সময় কাটালাম 🌱🌸",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/213/600/400" }
+      ],
+      "reactions": {
+        "like": 170,
+        "love": 60,
+        "wow": 15,
+        "angry": 0,
+        "sad": 0
+      },
+      "comments_count": 7,
+      "shares_count": 3,
+      "privacy": "friends",
+      "location": "Dhaka",
+      "created_at": "2025-10-03T17:45:00+06:00"
+    },
+    {
+      "id": "45",
+      "user": {
+        "id": "145",
+        "name": "Parvez",
+        "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+      },
+      "content": "আজকে village fair এ গেলাম 🎡",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/214/600/400" }
+      ],
+      "reactions": {
+        "like": 260,
+        "love": 95,
+        "wow": 25,
+        "angry": 0,
+        "sad": 1
+      },
+      "comments_count": 19,
+      "shares_count": 7,
+      "privacy": "public",
+      "location": "Village Fair",
+      "created_at": "2025-10-04T14:10:00+06:00"
+    },
+    {
+      "id": "46",
+      "user": {
+        "id": "146",
+        "name": "Salma",
+        "avatar": "https://randomuser.me/api/portraits/women/46.jpg"
+      },
+      "content": "আজকে art painting শেষ করলাম 🎨",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/215/600/400" }
+      ],
+      "reactions": {
+        "like": 200,
+        "love": 85,
+        "wow": 22,
+        "angry": 0,
+        "sad": 0
+      },
+      "comments_count": 13,
+      "shares_count": 5,
+      "privacy": "public",
+      "location": "Khulna",
+      "created_at": "2025-10-04T16:25:00+06:00"
+    },
+    {
+      "id": "47",
+      "user": {
+        "id": "147",
+        "name": "Mamun",
+        "avatar": "https://randomuser.me/api/portraits/men/47.jpg"
+      },
+      "content": "আজকে library থেকে বই আনলাম 📚",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/216/600/400" }
+      ],
+      "reactions": {
+        "like": 150,
+        "love": 50,
+        "wow": 10,
+        "angry": 0,
+        "sad": 0
+      },
+      "comments_count": 5,
+      "shares_count": 2,
+      "privacy": "friends",
+      "location": "Dhaka",
+      "created_at": "2025-10-04T19:40:00+06:00"
+    },
+    {
+      "id": "48",
+      "user": {
+        "id": "148",
+        "name": "Rafiq",
+        "avatar": "https://randomuser.me/api/portraits/men/48.jpg"
+      },
+      "content": "আজকে village road এ cycling 🚴",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/217/600/400" }
+      ],
+      "reactions": {
+        "like": 210,
+        "love": 70,
+        "wow": 14,
+        "angry": 0,
+        "sad": 0
+      },
+      "comments_count": 9,
+      "shares_count": 4,
+      "privacy": "public",
+      "location": "Village Road",
+      "created_at": "2025-10-05T07:20:00+06:00"
+    },
+    {
+      "id": "49",
+      "user": {
+        "id": "149",
+        "name": "Samira",
+        "avatar": "https://randomuser.me/api/portraits/women/49.jpg"
+      },
+      "content": "আজকে coffee shop এ friends দের সাথে আড্ডা ☕",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/218/600/400" }
+      ],
+      "reactions": {
+        "like": 330,
+        "love": 120,
+        "wow": 25,
+        "angry": 0,
+        "sad": 0
+      },
+      "comments_count": 26,
+      "shares_count": 11,
+      "privacy": "public",
+      "location": "Coffee House",
+      "created_at": "2025-10-05T15:00:00+06:00"
+    },
+    {
+      "id": "50",
+      "user": {
+        "id": "150",
+        "name": "Adnan",
+        "avatar": "https://randomuser.me/api/portraits/men/50.jpg"
+      },
+      "content": "আজকে rain photography করলাম 🌧️📸",
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/id/219/600/400" }
+      ],
+      "reactions": {
+        "like": 280,
+        "love": 100,
+        "wow": 30,
+        "angry": 0,
+        "sad": 3
+      },
+      "comments_count": 21,
+      "shares_count": 9,
+      "privacy": "public",
+      "location": "Dhaka",
+      "created_at": "2025-10-05T18:30:00+06:00"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.storySection {
+  display: flex;
+  align-items: center;
+  height: 180px;
+  width: 100%;
+  border-radius: 16px;
+  gap: 8px;
+}

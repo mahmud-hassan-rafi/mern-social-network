@@ -1,0 +1,152 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px 0 10px;
+}
+
+.list :nth-child(n) {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin: 0;
+}
+
+.list :nth-child(n) img {
+  height: 36px;
+  width: 36px;
+}
+
+.list a {
+  text-decoration: none;
+  color: #222;
+  padding: 8px;
+  padding-right: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.list a:hover {
+  background-color: #e4e9e8;
+  border-radius: 8px;
+}
+
+.list a:focus {
+  background-color: #e4e9e8;
+}
+
+.list :nth-child(1) img {
+  height: 36px;
+  width: 36px;
+}
+
+.friendIcon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v4/yA/r/FVAeV5GPLIk.png?_nc_eui2=AeHCLQeVCaD27MiIiqrEdYN-bIsS3TALJrxsixLdMAsmvMsarLO4_0atNwHoycVI-dgzHiK9ErwpkDNzbKCcmcsh);
+  background-position: 0px -333px;
+  background-size: auto;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.memoriesIcon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yA/r/FVAeV5GPLIk.png?_nc_eui2=AeHCLQeVCaD27MiIiqrEdYN-bIsS3TALJrxsixLdMAsmvMsarLO4_0atNwHoycVI-dgzHiK9ErwpkDNzbKCcmcsh");
+  background-position: 0px -481px;
+  background-size: auto;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.savedIcon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yA/r/FVAeV5GPLIk.png?_nc_eui2=AeHCLQeVCaD27MiIiqrEdYN-bIsS3TALJrxsixLdMAsmvMsarLO4_0atNwHoycVI-dgzHiK9ErwpkDNzbKCcmcsh");
+  background-position: 0px -222px;
+  background-size: auto;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.groupIcon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yA/r/FVAeV5GPLIk.png?_nc_eui2=AeHCLQeVCaD27MiIiqrEdYN-bIsS3TALJrxsixLdMAsmvMsarLO4_0atNwHoycVI-dgzHiK9ErwpkDNzbKCcmcsh");
+  background-position: 0px -74px;
+  background-size: auto;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.videoIcon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yA/r/FVAeV5GPLIk.png?_nc_eui2=AeHCLQeVCaD27MiIiqrEdYN-bIsS3TALJrxsixLdMAsmvMsarLO4_0atNwHoycVI-dgzHiK9ErwpkDNzbKCcmcsh");
+  background-position: 0px -555px;
+  background-size: auto;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.marketplaceIcon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yA/r/FVAeV5GPLIk.png?_nc_eui2=AeHCLQeVCaD27MiIiqrEdYN-bIsS3TALJrxsixLdMAsmvMsarLO4_0atNwHoycVI-dgzHiK9ErwpkDNzbKCcmcsh");
+  background-position: 0px -444px;
+  background-size: auto;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.eventIcon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yA/r/FVAeV5GPLIk.png?_nc_eui2=AeHCLQeVCaD27MiIiqrEdYN-bIsS3TALJrxsixLdMAsmvMsarLO4_0atNwHoycVI-dgzHiK9ErwpkDNzbKCcmcsh");
+  background-position: 0px -296px;
+  background-size: auto;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.adsManagerIcon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yq/r/_iR-92BGwSA.png?_nc_eui2=AeHshEatPtI0K3mmCwKjK8vwWXda6ifAkAtZd1rqJ8CQC6eHrAv5HQO_4XVlKOtoOyfvR3Aams94QyUcrnm3g010");
+  background-position: 0px -111px;
+  background-size: auto;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.gamesIcon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yA/r/FVAeV5GPLIk.png?_nc_eui2=AeHCLQeVCaD27MiIiqrEdYN-bIsS3TALJrxsixLdMAsmvMsarLO4_0atNwHoycVI-dgzHiK9ErwpkDNzbKCcmcsh");
+  background-position: 0px -111px;
+  background-size: auto;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.extraList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 8px;
+  padding: 0 8px;
+  font-size: 13px;
+  color: #777;
+}
+
+.extraList a {
+  padding: 0;
+  font-size: 13px;
+  color: #777;
+}
+
+.extraList a:hover {
+  background-color: none;
+  text-decoration: underline;
+}

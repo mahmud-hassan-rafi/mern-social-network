@@ -1,0 +1,128 @@
+:root {
+  --iconColor: rgb(40, 105, 245);
+  --defaultColor: #504d4d;
+  --hoverColor: #f2f4f7;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  grid-template-rows: 60px;
+  padding: 0 1em;
+  background-color: #feffff;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  /* box-shadow: 0 1px 0 4px #aaa; */
+}
+
+.logoAndSearch {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 42px;
+  color: var(--iconColor);
+}
+
+.searchBox {
+  margin-left: 5px;
+  padding: 4px;
+  width: 90%;
+}
+
+.searchIcon,
+.searchInput {
+  border-radius: 50px;
+  background-color: var(--hoverColor);
+  padding: 10px;
+}
+
+.searchIcon {
+  font-size: 20px;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+}
+
+.searchInput:focus {
+  border: none;
+  outline: none;
+}
+
+.iconList,
+.navEndSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconList {
+  margin-right: 45px;
+  column-gap: 10px;
+}
+
+.iconList a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 40px;
+  padding: 8px 14px;
+  cursor: pointer;
+  color: var(--defaultColor);
+  text-decoration: none;
+  font-size: 26px;
+  transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* hover এ */
+.iconList a:hover {
+  background-color: var(--hoverColor);
+  border-radius: 6px;
+}
+
+.iconList a.active {
+  color: var(--iconColor);
+  border-bottom: 3px solid var(--iconColor);
+  outline: none;
+}
+
+.iconList a.active:hover {
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+/* focus এ */
+
+a.SiFacebookgaming {
+  font-size: 20px;
+}
+
+.navEndSection {
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.navEndSection a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: black;
+  background-color: var(--hoverColor);
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.navEndSection a:hover {
+  background-color: #cecfcf;
+  transition: all 0.1s;
+}

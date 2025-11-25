@@ -1,0 +1,100 @@
+:root {
+  --grayBlackColor: #666;
+  --hoverBgColor: rgba(242, 248, 247, 0.534);
+}
+
+.postHead {
+  display: flex;
+  gap: 10px;
+  max-height: 70px;
+  align-items: center;
+  padding: 10px 20px 0px;
+}
+
+.postHead:nth-child(1) img {
+  height: 45px;
+  width: 45px;
+}
+
+.postTime {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.postTime div {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.postTime div p {
+  margin: 0;
+}
+
+/* User Name */
+.postTime div:nth-child(1) p:nth-child(1) {
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.postTime div:nth-child(1) p:nth-child(1):hover {
+  color: #333;
+  text-decoration: underline;
+  background-color: var(--hoverBgColor);
+}
+/* ------------------------ */
+
+/* Follow */
+.postTime div:first-child p:nth-child(2) {
+  color: rgb(14 111 255);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.postTime div:first-child p:nth-child(2):hover {
+  background-color: var(--hoverBgColor);
+}
+
+/* posting time */
+.postTime div:nth-child(2) p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--grayBlackColor);
+}
+
+/* audience visibility icon*/
+.postTime div:nth-child(2) {
+  color: var(--grayBlackColor);
+}
+
+/* three dot menu */
+.postHead span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 600;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  margin-left: auto;
+  color: var(--grayBlackColor);
+}
+
+.postHead span:hover {
+  background-color: var(--hoverBgColor);
+}
+
+/* cross icon */
+.postHead :nth-child(4) {
+  font-size: 28px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--grayBlackColor);
+}
+
+.postHead :nth-child(4):hover {
+  background-color: var(--hoverBgColor);
+}
