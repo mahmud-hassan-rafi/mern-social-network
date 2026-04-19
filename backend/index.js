@@ -24,7 +24,7 @@ app.use(
   }),
 );
 
-app.use("/", (req, res) => res.send("API is working!"));
+app.get("/", (req, res) => res.send("API is working!"));
 
 // routes
 app.use("/api/auth", express.json(), authRoute);

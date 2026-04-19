@@ -10,7 +10,7 @@ const MainLayout = () => {
     if (called.current) return;
     called.current = true;
     (async () => {
-      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/`, {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}`, {
         credentials: "include",
       });
       const data = await res.json();
