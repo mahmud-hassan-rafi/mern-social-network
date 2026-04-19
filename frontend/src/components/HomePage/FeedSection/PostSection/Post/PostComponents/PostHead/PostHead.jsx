@@ -1,5 +1,5 @@
 import { FaClosedCaptioning, FaCross, FaCrosshairs } from "react-icons/fa";
-import ProfilePicture from "../../../../../../Universal Components/Profile Picture/ProfilePicture";
+import ProfilePicture from "../../../../../../Universal_Components/Profile Picture/ProfilePicture";
 import styles from "./PostHead.module.css";
 import PostTime from "./PostTime";
 import { MdClose, MdMenu } from "react-icons/md";

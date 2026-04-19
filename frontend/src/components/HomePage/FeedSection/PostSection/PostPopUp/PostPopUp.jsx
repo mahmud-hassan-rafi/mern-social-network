@@ -21,11 +21,14 @@ export default function CreatePostPopUp() {
     formData.append("content", postText);
     formData.append("media", postPhotoURL);
 
-    const res = await fetch("http://localhost:5000/api/posts/create-post", {
-      method: "post",
-      body: formData,
-      credentials: "include",
-    });
+    const res = await fetch(
+      `${import.meta.env.VITE_API_BASE_URL}/posts/create-post`,
+      {
+        method: "post",
+        body: formData,
+        credentials: "include",
+      },
+    );
     const data = await res.json();
     console.log(data);
     setPostText(null);
