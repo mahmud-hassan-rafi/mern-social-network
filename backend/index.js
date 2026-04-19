@@ -17,6 +17,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "http://localhost:4173",
       "https://facebook-ui-clone-orcin.vercel.app",
     ],
     methods: ["GET", "POST", "PATCH", "PUT", "DELETE"],
