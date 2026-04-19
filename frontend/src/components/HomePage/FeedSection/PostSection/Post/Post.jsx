@@ -57,7 +57,7 @@ export default React.memo(Post);
 
 export const PostData = async (page) => {
   const response = await fetch(
-    `http://localhost:5000/api/posts/?page=${page || 1}&limit=10`
+    `${import.meta.env.VITE_API_BASE_URL}/posts/?page=${page || 1}&limit=10`,
   );
   const data = await response.json();
   return data;

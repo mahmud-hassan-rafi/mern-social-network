@@ -76,8 +76,6 @@ export default function ComponentPack() {
           height="20"
           fill="currentColor"
           aria-hidden="true"
-          // class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
-          // style="--x-color: var(--primary-icon);"
         >
           <g fillRule="evenodd" transform="translate(-448 -544)">
             <path
