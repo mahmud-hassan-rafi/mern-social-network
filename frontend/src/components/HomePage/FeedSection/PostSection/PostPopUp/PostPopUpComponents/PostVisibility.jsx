@@ -1,5 +1,5 @@
 import styles from "../PostPopUp.module.css";
-import ProfilePicture from "../../../../../Universal Components/Profile Picture/ProfilePicture";
+import ProfilePicture from "../../../../../Universal_Components/Profile Picture/ProfilePicture";
 
 export default function PostVisibility() {
   return (

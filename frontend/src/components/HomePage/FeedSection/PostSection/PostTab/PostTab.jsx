@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import ProfilePicture from "../../../../Universal Components/Profile Picture/ProfilePicture";
+import ProfilePicture from "../../../../Universal_Components/Profile Picture/ProfilePicture";
 import PhotoActivity from "./PhotoActivity";
 import styles from "./PostTab.module.css";
 import { IsWantToPostContext } from "../../../../../store/IsWantToPostContext";

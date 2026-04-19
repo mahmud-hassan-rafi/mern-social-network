@@ -2,7 +2,7 @@ import { CgMenuGridO } from "react-icons/cg";
 import { FaFacebookMessenger } from "react-icons/fa";
 import { IoMdNotifications } from "react-icons/io";
 import styles from "./Nav.module.css";
-import ProfilePicture from "../Universal Components/Profile Picture/ProfilePicture";
+import ProfilePicture from "../Universal_Components/Profile Picture/ProfilePicture";
 
 export default function NavEndSection() {
   return (

@@ -13,6 +13,7 @@ const Register = () => {
     birthday: "",
     gender: "",
   });
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleSignupFormSubmit = async (event) => {
     event.preventDefault();
@@ -38,6 +39,7 @@ const Register = () => {
       return;
     }
 
+    setIsLoading(true);
     try {
       const res = await fetch(
         `${import.meta.env.VITE_API_BASE_URL}/auth/signup`,
@@ -51,12 +53,17 @@ const Register = () => {
       const data = await res.json();
       if (!res.ok) {
         errorNotify(data.message);
+        setIsLoading(false);
         return;
       }
       successNotify(data.message);
-      navigate("/");
+      // Give a small delay to ensure cookie is set before navigation
+      setTimeout(() => {
+        navigate("/", { replace: true });
+      }, 500);
     } catch (error) {
       errorNotify(error.message);
+      setIsLoading(false);
     }
   };
   return (
@@ -77,6 +84,7 @@ const Register = () => {
               type="text"
               placeholder="first name"
               value={userInfo.firstname}
+              disabled={isLoading}
               onChange={(event) => {
                 let updatedUser = {
                   ...userInfo,
@@ -89,6 +97,7 @@ const Register = () => {
               type="text"
               placeholder="surname"
               value={userInfo.surname}
+              disabled={isLoading}
               onChange={(event) => {
                 let updatedUser = { ...userInfo, surname: event.target.value };
                 setUserInfo(updatedUser);
@@ -99,6 +108,7 @@ const Register = () => {
             type={`${!parseInt(userInfo.email) ? "email" : "number"}`}
             placeholder="Email or phone number"
             value={userInfo.email}
+            disabled={isLoading}
             onChange={(event) => {
               let updatedUser = { ...userInfo, email: event.target.value };
               setUserInfo(updatedUser);
@@ -109,6 +119,7 @@ const Register = () => {
             name="password"
             placeholder="New Password"
             value={userInfo.password}
+            disabled={isLoading}
             onChange={(event) => {
               let updatedUser = { ...userInfo, password: event.target.value };
               setUserInfo(updatedUser);
@@ -120,6 +131,7 @@ const Register = () => {
             name=""
             id="birthday"
             value={userInfo.birthday}
+            disabled={isLoading}
             onChange={(event) => {
               let updatedUser = { ...userInfo, birthday: event.target.value };
               setUserInfo(updatedUser);
@@ -133,6 +145,7 @@ const Register = () => {
                 name="gender"
                 value="male"
                 id="male"
+                disabled={isLoading}
                 onChange={(event) => {
                   let updatedUser = { ...userInfo, gender: event.target.value };
                   setUserInfo(updatedUser);
@@ -147,6 +160,7 @@ const Register = () => {
                 name="gender"
                 value={"female"}
                 id="female"
+                disabled={isLoading}
                 onChange={(event) => {
                   let updatedUser = { ...userInfo, gender: event.target.value };
                   setUserInfo(updatedUser);
@@ -161,6 +175,7 @@ const Register = () => {
                 name="gender"
                 value={"custom"}
                 id="custom"
+                disabled={isLoading}
                 onChange={(event) => {
                   let updatedUser = { ...userInfo, gender: event.target.value };
                   setUserInfo(updatedUser);
@@ -170,8 +185,8 @@ const Register = () => {
             </label>
           </span>
 
-          <button type="submit" className="signupBtn">
-            Sign up
+          <button type="submit" className="signupBtn" disabled={isLoading}>
+            {isLoading ? "Creating account..." : "Sign up"}
           </button>
         </form>
         <hr />

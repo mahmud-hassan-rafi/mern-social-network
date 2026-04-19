@@ -25,13 +25,18 @@ export const handleSignupRoute = async (req, res) => {
       email,
     },
     process.env.JWT_SECRET,
-    { expiresIn: "1h" }
+    { expiresIn: "1h" },
   );
   // sending token on the cookie
   res.cookie("token", jwtToken, {
     maxAge: 60 * 60 * 1000,
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "Lax",
   });
-  res.status(200).json({ message: "Account creation successfull" });
+  res
+    .status(200)
+    .json({ message: "Account creation successfull", success: true });
 };
 
 // handleLoginRoute
@@ -57,12 +62,16 @@ export const handleLoginRoute = async (req, res) => {
       email,
     },
     process.env.JWT_SECRET,
-    { expiresIn: "1h" }
+    { expiresIn: "1h" },
   );
   // sending token on the cookie
   res.cookie("token", jwtToken, {
     maxAge: 60 * 60 * 1000,
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "Lax",
   });
-  return res.status(200).json({ message: `Welcome ${firstname}` });
-  // res.status(200).json({ message: "Account creation successfull" });
+  return res
+    .status(200)
+    .json({ message: `Welcome ${firstname}`, success: true });
 };

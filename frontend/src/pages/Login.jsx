@@ -9,6 +9,7 @@ const Login = () => {
     email: "",
     password: "",
   });
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleLoginFormSubmit = async (event) => {
     event.preventDefault();
@@ -24,6 +25,7 @@ const Login = () => {
       return;
     }
 
+    setIsLoading(true);
     try {
       const res = await fetch(
         `${import.meta.env.VITE_API_BASE_URL}/auth/login`,
@@ -37,12 +39,17 @@ const Login = () => {
       const data = await res.json();
       if (!res.ok) {
         errorNotify(data.message);
+        setIsLoading(false);
         return;
       }
       successNotify(data.message);
-      navigate("/");
+      // Give a small delay to ensure cookie is set before navigation
+      setTimeout(() => {
+        navigate("/", { replace: true });
+      }, 500);
     } catch (error) {
       errorNotify(error.message);
+      setIsLoading(false);
     }
   };
 
@@ -62,6 +69,7 @@ const Login = () => {
             name="Number/Email"
             value={userInfo.email}
             placeholder="Email or phone number"
+            disabled={isLoading}
             onChange={(event) => {
               const updatedValue = {
                 ...userInfo,
@@ -75,6 +83,7 @@ const Login = () => {
             name="password"
             value={userInfo.password}
             placeholder="Password"
+            disabled={isLoading}
             onChange={(event) => {
               const updatedValue = {
                 ...userInfo,
@@ -83,8 +92,8 @@ const Login = () => {
               setUserInfo(updatedValue);
             }}
           />
-          <button type="submit" className="loginBtn">
-            Login
+          <button type="submit" className="loginBtn" disabled={isLoading}>
+            {isLoading ? "Logging in..." : "Login"}
           </button>
         </form>
         <span>
@@ -95,6 +104,7 @@ const Login = () => {
             onClick={() => {
               navigate("/register");
             }}
+            disabled={isLoading}
           >
             Create new account
           </button>

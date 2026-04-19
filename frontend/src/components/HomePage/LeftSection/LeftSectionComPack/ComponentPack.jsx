@@ -1,4 +1,4 @@
-import ProfilePicture from "../../../Universal Components/Profile Picture/ProfilePicture";
+import ProfilePicture from "../../../Universal_Components/Profile Picture/ProfilePicture";
 import styles from "./ComponentPack.module.css";
 import BottomList from "./components/bottomList";
 

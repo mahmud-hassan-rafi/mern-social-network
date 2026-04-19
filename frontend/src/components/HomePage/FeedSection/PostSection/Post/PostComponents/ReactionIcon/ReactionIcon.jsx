@@ -1,16 +1,26 @@
 import ReactDOM from "react-dom";
 import React, { useEffect, useRef, useState } from "react";
 import styles from "../../Post.module.css";
+import likeIcon from "../../../../../../../assets/svg_icons/like.svg";
+import loveIcon from "../../../../../../../assets/svg_icons/love.svg";
+import careIcon from "../../../../../../../assets/svg_icons/care.svg";
+import hahaIcon from "../../../../../../../assets/svg_icons/haha.svg";
+import wowIcon from "../../../../../../../assets/svg_icons/wow.svg";
+import sadIcon from "../../../../../../../assets/svg_icons/sad.svg";
+import angryIcon from "../../../../../../../assets/svg_icons/angry.svg";
+import likedIcon from "../../../../../../../assets/svg_icons/liked.svg";
+import commentsIcon from "../../../../../../../assets/svg_icons/Comments.png";
+import shareIcon from "../../../../../../../assets/svg_icons/share.svg";
 
 export default function ReactionIcon() {
   const emojiList = [
-    "../src/assets/svg_icons/like.svg",
-    "../src/assets/svg_icons/love.svg",
-    "../src/assets/svg_icons/care.svg",
-    "../src/assets/svg_icons/haha.svg",
-    "../src/assets/svg_icons/wow.svg",
-    "../src/assets/svg_icons/sad.svg",
-    "../src/assets/svg_icons/angry.svg",
+    likeIcon,
+    loveIcon,
+    careIcon,
+    hahaIcon,
+    wowIcon,
+    sadIcon,
+    angryIcon,
   ];
   const [show, setShow] = useState(false);
   const [coords, setCoords] = useState({ x: 0, y: 0 });
@@ -58,7 +68,7 @@ export default function ReactionIcon() {
             <img src={emoji} key={i} alt="" className={styles.emoji} />
           ))}
         </div>,
-        document.body
+        document.body,
       )
     : null;
 
@@ -71,32 +81,17 @@ export default function ReactionIcon() {
         onMouseEnter={handleMouseEnter}
         // onMouseLeave={handleMouseLeave}
       >
-        <img
-          src="../src/assets/svg_icons/liked.svg"
-          alt=""
-          height="20"
-          width="20"
-        />
+        <img src={likedIcon} alt="Like" height="20" width="20" />
         Like
       </span>
 
       <span>
-        <img
-          src="../src/assets/svg_icons/Comments.png"
-          alt=""
-          height="20"
-          width="20"
-        />
+        <img src={commentsIcon} alt="Comment" height="20" width="20" />
         Comment
       </span>
 
       <span>
-        <img
-          src="../src/assets/svg_icons/share.svg"
-          alt=""
-          height="20"
-          width="20"
-        />
+        <img src={shareIcon} alt="Share" height="20" width="20" />
         Share
       </span>
     </div>
