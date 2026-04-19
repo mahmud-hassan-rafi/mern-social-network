@@ -31,5 +31,4 @@ app.use("/api/auth", express.json(), authRoute);
 app.use("/api/posts", postRoutes);
 app.use("/api", express.json(), indexRoute);
 
-// server listening setup
-app.listen(5000, () => console.log("Server listening at port 5000"));
+export default app;
