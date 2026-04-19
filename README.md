@@ -13,6 +13,15 @@ This project is a **pixel-perfect UI clone** inspired by Facebook, built to demo
 
 ---
 
+## 📸 Demo Preview
+
+<p align="center">
+  <img src="./frontend/src/assets/facebook_ui_clone_pic.jpeg" width="100%" />
+  <img src="./frontend/src/assets/facebook_ui_clone_pic1.jpeg" width="100%" />
+  <img src="./frontend/src/assets/facebook_ui_clone_pic3.jpeg" width="100%" />
+  <img src="./frontend/src/assets/facebook_ui_clone_pic2.jpeg" width="100%" />
+</p>
+
 ## 🎯 Purpose
 
 The goal of this project is to:
