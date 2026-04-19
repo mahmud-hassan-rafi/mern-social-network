@@ -62,14 +62,14 @@ export const handleLoginRoute = async (req, res) => {
       email,
     },
     process.env.JWT_SECRET,
-    { expiresIn: "1h" },
+    { expiresIn: "24h" },
   );
   // sending token on the cookie
   res.cookie("token", jwtToken, {
-    maxAge: 60 * 60 * 1000,
+    maxAge: 24 * 60 * 60 * 1000,
     httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: "Lax",
+    secure: true,
+    sameSite: "none",
   });
   return res
     .status(200)
